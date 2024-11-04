@@ -1,0 +1,59 @@
+Test Case #1
+
+Title: View GitHub pricing plans
+Preconditions: None
+
+Steps:
+1.Navigate to "https://github.com"
+2.Scroll to the footer of the page
+3.Click on the prising link
+
+Expected result: The pricing page opens displaying title: "Pricing · Plans for every developer · GitHub"
+
+
+Test Case #2
+
+Title: Invalid Sign In
+Preconditions: 
+username: marshal
+password: 123321
+
+Steps:
+1.Navigate to "https://github.com"
+2.Click the "Sign In" button on the top right corner 
+3.Write invalid username or email in "Username or email address" input field
+4. Write invalid password in "Password" input field
+5.Click on the green Sign In Button
+
+Expected result: Error message is displayed
+
+
+Test Case #3
+
+Title: Go to GitHub Documentation page
+Preconditions: None
+
+Steps:
+1.Navigate to "https://github.com"
+2.Scroll to the footer of the page
+3.Click on the "Docs" link
+
+Expected result: The GitHub Documentation page opens and displaying tutorials
+
+
+Test Case #4
+
+Title: GitHub sitemap url check
+Preconditions: None
+
+Steps:
+1.Navigate to "https://github.com"
+2.Scroll to the bottom of the site
+3.click on the "Sitemap" link
+
+Expected result: Sitemap page opens and contain text "sitemap" in its URL
+
+
+Test Case #5
+
+Title: Search for
