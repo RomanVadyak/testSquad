@@ -23,11 +23,11 @@ class GithubSignUp {
     return $("#login");
   }
   get continueFinalBtn() {
-    return $('button[data-continue-to="opt-in-container"]');
+    return $(".js-octocaptcha-load-captcha");
   }
-  get verifyAccount() {
-    return $('button[data-continue-to="captcha-and-submit-container"]');
-  }
+//   get verifyAccount() {
+//     return $('button[data-continue-to="captcha-and-submit-container"]');
+//   }
   get welcomeMsg() {
     return $('span[data-target="typing-effect.content"]');
   }
@@ -53,9 +53,9 @@ class GithubSignUp {
   async clickContinueFinal() {
     await this.continueFinalBtn.click();
   }
-  async clickVerifyAccount() {
-    await this.verifyAccount.click();
-  }
+//   async clickVerifyAccount() {
+//     await this.verifyAccount.click();
+//   }
 }
 
 export default new GithubSignUp();

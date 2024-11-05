@@ -56,4 +56,15 @@ Expected result: Sitemap page opens and contain text "sitemap" in its URL
 
 Test Case #5
 
-Title: Search for
+Title: Search for several Texts on "github.com"
+Preconditions: None
+
+Steps:
+1.Navigate to "https://github.com"
+2.Scroll to the footer of the site
+3.Click on "GitHub Mobile" link
+4.Check if main text have value "Build from anywhere with GitHub Mobile"
+5.Check if text in the footer of the page have value "Let’s build together on the go"
+6.Check if image with GitHub Actions is displayed
+
+Expected result: GitHub Mobile page opens and all checks were positive

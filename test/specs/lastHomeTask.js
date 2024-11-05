@@ -31,7 +31,7 @@ describe("GitHub first task", () => {
     await GitHubSignUp.clickContinueFinal();
     await browser.pause(2000);
 
-    await GitHubSignUp.clickVerifyAccount();
+    //await GitHubSignUp.clickVerifyAccount();
     await browser.pause(2000);
 
     expect(GitHubSignUp.welcomeMsg).toBeDisplayed();
